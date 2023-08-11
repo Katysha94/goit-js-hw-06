@@ -2,7 +2,7 @@ const inputEL = document.querySelector("#name-input");
 const outputEl = document.querySelector("#name-output");
 
 
-const logHandler = (evt) => {
+const logHandler = evt => {
     if (evt.currentTarget.value === "") {
         outputEl.textContent = "Anonymous"
     } else {

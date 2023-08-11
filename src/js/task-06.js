@@ -1,7 +1,7 @@
 const inputEl = document.querySelector("#validation-input")
 console.log(inputEl)
 
-const greetingHandler = (evt) => {
+const greetingHandler = evt => {
     const enteredValue = evt.currentTarget.value;
     const inputLength = inputEl.getAttribute("data-length");
 
